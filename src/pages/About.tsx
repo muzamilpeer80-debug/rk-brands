@@ -11,12 +11,12 @@ export default function About() {
     <div className="pt-24 lg:pt-32">
       {/* Hero */}
       <section ref={hero.ref} className={`container-lux mb-20 transition-all duration-1000 ${hero.visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-        <p className="section-eyebrow mb-4">The House of VÉRONA</p>
+        <p className="section-eyebrow mb-4">The House of  RK BRANDS</p>
         <h1 className="font-display text-5xl lg:text-8xl leading-[0.95] mb-8">
           Designed for those<br />who refuse<br /><span className="italic font-light">ordinary.</span>
         </h1>
         <p className="text-lg text-ink-600 max-w-2xl leading-relaxed">
-          VÉRONA was founded on a simple belief: that what you wear should be as considered as how you live. We craft limited-edition footwear and clothing for individuals who understand that true luxury is restraint.
+          RK BRANDS was founded on a simple belief: that what you wear should be as considered as how you live. We craft limited-edition footwear and clothing for individuals who understand that true luxury is restraint.
         </p>
       </section>
 
