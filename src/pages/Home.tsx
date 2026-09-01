@@ -24,7 +24,7 @@ export default function Home() {
           <img
           src="https://i.pinimg.com/736x/02/48/d4/0248d44292a586651d2be3cf1daff75e.jpg"
             alt="RK BRANDS"
-            className=" absolute inset-0w-100px h-500px object-cover "
+            className=" absolute inset-0 w-full h-full object-cover "
           />
           <div className="absolute inset-0 bg-gradient-to-b from-ink-900/50 via-ink-900/30 to-ink-900" />
         </div>
