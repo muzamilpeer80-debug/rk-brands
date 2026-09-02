@@ -1,4 +1,4 @@
-/*
+
 # VÉRONA — full e-commerce schema
 
 1. New Tables
