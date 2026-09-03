@@ -216,3 +216,34 @@ CREATE POLICY "insert_own_wishlist" ON wishlist FOR INSERT
 DROP POLICY IF EXISTS "delete_own_wishlist" ON wishlist;
 CREATE POLICY "delete_own_wishlist" ON wishlist FOR DELETE
   TO authenticated USING (auth.uid() = user_id);
+  -- ADD JORDAN PRODUCT
+INSERT INTO products (
+  name,
+  slug,
+  description,
+  price,
+  category,
+  type,
+  images,
+  sizes,
+  colors,
+  stock,
+  featured,
+  trending,
+  is_new
+)
+VALUES (
+  'Jordan',
+  'jordan',
+  'Premium Jordan Shoes',
+  100000,
+  'men',
+  'shoes',
+  '["/jordan.jpg"]'::jsonb,
+  '["7", "8", "9", "10"]'::jsonb,
+  '["Black"]'::jsonb,
+  10,
+  true,
+  true,
+  true
+);
