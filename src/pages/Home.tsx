@@ -22,7 +22,7 @@ export default function Home() {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-ink-900">
         <div className="absolute inset-0">
           <img
-          src="https://i.pinimg.com/736x/02/48/d4/0248d44292a586651d2be3cf1daff75e.jpg"
+          src="https://s3-figma-hubfile-images-production-cdn-cgi.figma.com/cdn-cgi/image/format=auto,quality=85/hub/file/carousel/img/7a1f466a5a5b673903699c0c2f10471cb6466c31/6780d2a77d7b78ae660f69766f552f3f0698d9ed"
             alt="RK BRANDS"
             className=" absolute inset-0 w-full h-full object-cover "
           />

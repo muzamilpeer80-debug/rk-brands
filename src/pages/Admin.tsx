@@ -693,12 +693,12 @@ export default function Admin() {
 
                                     <img
                                       src={
-                                        product
-                                          .images?.[0] ||
+                                       product
+                                          .images?.[1] ||
                                         ''
                                       }
                                       alt={
-                                        product.name
+                                        product.name 
                                       }
                                       className="w-10 h-12 object-cover"
                                     />
