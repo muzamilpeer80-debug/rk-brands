@@ -18,6 +18,7 @@ import {
   Trash2,
   X,
 } from 'lucide-react';
+import Shoes from './Shoes';
 
 /*
 |--------------------------------------------------------------------------
@@ -693,12 +694,11 @@ export default function Admin() {
 
                                     <img
                                       src={
-                                       product
-                                          .images?.[1] ||
-                                        ''
+                                       
+                                       "public/jordan.jpg"
                                       }
                                       alt={
-                                        product.name 
+                                        product.name
                                       }
                                       className="w-10 h-12 object-cover"
                                     />
