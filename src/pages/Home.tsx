@@ -104,7 +104,7 @@ export default function Home() {
         <div className="grid lg:grid-cols-2 min-h-[80vh]">
           <div className="relative overflow-hidden">
             <img
-              src="https://images.pexels.com/photos/15137845/pexels-photo-15137845.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="https://mir-s3-cdn-cf.behance.net/projects/404/32e0f4253571313.Y3JvcCwyNDgwLDE5MzksMCw3ODU.jpg"
               alt="Men's editorial"
               className="w-full h-full object-cover"
             />
