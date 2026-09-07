@@ -160,7 +160,7 @@ export default function Home() {
           </div>
           <div className="relative overflow-hidden order-1 lg:order-2">
             <img
-              src="https://images.pexels.com/photos/20620137/pexels-photo-20620137.jpeg?auto=compress&cs=tinysrgb&w=1200"
+              src="https://t4.ftcdn.net/jpg/04/77/91/07/360_F_477910771_V79eDAiLQxW4igi1jRTyt77F4Lz3CanP.jpg"
               alt="Women's editorial"
               className="w-full h-full object-cover"
             />
