@@ -695,7 +695,8 @@ export default function Admin() {
                                     <img
                                       src={
                                        
-                                       "public/jordan.jpg"
+                                         product.images?.[1] ||
+                                        ''
                                       }
                                       alt={
                                         product.name
