@@ -42,7 +42,7 @@ export default function Home() {
             <span className="italic font-light">Difference.</span>
           </h1>
           <p className="mt-8 text-base lg:text-lg text-ivory-200 max-w-xl mx-auto leading-relaxed animate-fade-up" style={{ animationDelay: '200ms' }}>
-            Contemporary footwear and clothing designed for those who refuse ordinary.
+            Secondhand footwear and clothing designed for those who refuse ordinary.
           </p>
           <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-up" style={{ animationDelay: '400ms' }}>
             <Link to="/men" className="btn-light w-full sm:w-auto">
